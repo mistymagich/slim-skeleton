@@ -1,0 +1,20 @@
+{% extends "layouts/layout.html" %}
+
+{# content #}
+{% block content %}
+
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">Profile</li>
+    </ol>
+
+    <p>Name: {{name}}</p>
+
+{% endblock %}
+
+{# footer #}
+{% block footer %}
+
+    <p class="text-muted">Place sticky footer content here.</p>
+
+{% endblock %}

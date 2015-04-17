@@ -1,0 +1,5 @@
+vendor
+nbproject/
+.sass-cache/
+app/cache/
+app/logs/
